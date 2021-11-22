@@ -2,8 +2,8 @@
 
 __CONFIG _HS_OSC & _WDT_OFF & _LVP_OFF
 
-	;Déclaration
-      CBLOCK 0x20 ;Réserver une zone de variable
+	;Declaration
+      CBLOCK 0x20 ;Reserver une zone de variable
       V1:      1 ;1 pour 1 octet
       V2:      1
       ENDC
